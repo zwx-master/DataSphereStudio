@@ -18,18 +18,14 @@
 import Vue from 'vue'
 import iView from 'iview'
 import VueRouter from 'vue-router'
-import './js/module'
-import App from './js/view/app.vue'
-import router from './js/service/router'
-import component from './js/component'
-import mixin from '../src/js/service/mixin'
-import i18n from './js/i18n'
-
+import App from './dss/view/app.vue'
+import router from './router'
+import component from './components'
+import i18n from './common/i18n'
+import './common/service/moduleRegisterMixin.js'
 import 'iview/dist/styles/iview.css'
-
 Vue.use(VueRouter)
 Vue.use(component)
-Vue.mixin(mixin);
 Vue.config.productionTip = false
 
 Vue.use(iView, {

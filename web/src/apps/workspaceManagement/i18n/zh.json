@@ -1,0 +1,62 @@
+{
+  "message": {
+    "userTable": {
+      "userManagement": "用户管理",
+      "delete": "删除",
+      "editor": "编辑",
+      "comfirmDelete": "确认删除",
+      "role": "角色",
+      "user": "用户",
+      "addUser": "新增用户",
+      "editUser": "编辑用户",
+      "selectRoleMsg": "最少选择一个权限",
+      "addruleMsg": "请添加用户",
+      "umAccount": "UM账号",
+      "name": "姓名",
+      "department": "部门",
+      "office": "科室",
+      "creator": "创建人",
+      "joinTime": "加入时间",
+      "action": "操作",
+      "notDeleteMsg": "不可删除当前登入角色",
+      "deleteSuccess": "删除成功",
+      "addSuccess": "添加成功",
+      "addFail": "创建失败,已存在用户",
+      "updataSuccess": "更新成功",
+      "all": "全部",
+      "find": "查询",
+      "create": "创建",
+      "permissionsManagement": "权限管理",
+      "menuPermissions": "菜单权限",
+      "componentAccessPermissions": "组件访问权限",
+      "permissionsName": "权限名",
+      "editorSuccess": "修改成功",
+      "editorSuccessName": "修改分类{name}成功",
+      "homeSetting": "首页设置",
+      "addRole": "新增角色",
+      "roleName": "角色名称",
+      "permissionsEditor": "权限修改",
+      "addRoleMsg": "请添加角色",
+      "nameLongMsg": "角色名字长度不超过8个字符",
+      "ruleMsg": "仅支持字符、数字、下划线",
+      "nameRepeat": "用户名重复",
+      "deleteHintMsg": "删除用户将会造成不可逆的影响，除非用户离职或者更换部门，否则请慎重！",
+      "notsupported": "不支持当前操作"
+    },
+    "workspaceManagemnet": {
+      "title": "工作空间管理",
+      "baseInfo": "基本信息",
+      "userInfo": "用户信息",
+      "authInfo": "权限信息",
+      "productsetting": {
+        "productName": "产品名称：",
+        "createTime": "创建时间：",
+        "createBy": "创建人：",
+        "department": "部门：",
+        "admin": "管理员：",
+        "status": "状态：",
+        "desc": "描述："
+      }
+    }
+  }
+}
